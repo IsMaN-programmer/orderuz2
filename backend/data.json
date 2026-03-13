@@ -1,0 +1,28 @@
+{
+  "accounts": [
+    {
+      "id": "user-admin-ad896205-83d1-4943-81cc-c727705e659c",
+      "name": "Admin",
+      "email": "sr.racer77@gmail.com",
+      "password": "55895126@a",
+      "accountType": "user",
+      "isAdmin": true,
+      "avatar": "",
+      "phone": "",
+      "address": "",
+      "ordersCount": 0,
+      "savedCount": 0,
+      "followedRestaurants": [],
+      "restaurantVideos": [],
+      "restaurantFoodItems": [],
+      "totalVideoViews": 0,
+      "totalVideoLikes": 0,
+      "managedRestaurants": [],
+      "createdAt": 1773391428178
+    }
+  ],
+  "orders": [],
+  "comments": [],
+  "sharedVideos": [],
+  "videoInteractions": {}
+}
