@@ -11,12 +11,7 @@ const PORT = process.env.PORT || 3001;
 
 // ─── CORS ────────────────────────────────────────────────────────────────────
 const corsOptions = {
-  origin: [
-    'https://orderuz2.vercel.app',
-    'http://localhost:8080',
-    'http://localhost:5173',
-    'http://localhost:3000',
-  ],
+  origin: true,
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
